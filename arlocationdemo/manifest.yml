@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: locationARdemo
+  host: locationARdemo
+  disk_quota: 1024M
+  services:
+  - ARdb
+  buildpack: php_buildpack
